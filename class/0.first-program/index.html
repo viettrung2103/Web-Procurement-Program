@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>
+    Hello world
+</p>
+<script>
+
+  'use strict';
+  //silly code to demostrate ouput
+  document.write('Hello world');
+  document.write('<p><b>How are</b> ' +
+      '<br><i>you</i></p>');
+  // math execution
+  let x, y;
+  x = 1024;
+  y = x;
+  x = 'foobar';
+  document.write(x + '<br>');
+  document.writeln(y + '<br>');
+  // input
+  let userName = prompt('What is your name? ');
+  let age = prompt('what is your age? ');
+  let ageFloat = parseFloat(age);
+
+  document.write('Hello ' + userName + '.');
+  if (ageFloat < 18) {
+    document.write('<p>Do you parents know ' +
+        'That you are here</p>');
+  };
+
+
+  console.log('I have awaken!');
+
+</script>
+<!--<script src="script.js"></script>-->
+</body>
+</html>
